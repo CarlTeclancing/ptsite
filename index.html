@@ -36,6 +36,20 @@
     .btn{
         margin-right: 20px;
     }
+    .flex-row{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .same{
+        width: 250px;
+        height: 250px;
+        box-shadow: 8px 8px rgba(103, 103, 103, 0.083);
+        border-radius: 12px;
+    }
     @media screen and (min-width: 480px) {
         img{
             height: 500px;
@@ -79,13 +93,23 @@
                 </div>
             </div>
 
-            <div class="col-sm-2">
+            <div class="col align-self-start">
                 <img src="img/iPhone_73a38_IMG_9366.PNG" alt="failed to load image" class="img">
             </div>
             
             
         </div>
-        <div class="row"></div>
+        <div class="column">
+            <h2 class="pt-5">Here are some of my projects</h2>
+            <div class="flex-row">
+                <div class="same"></div>
+                <div class="same"></div>
+                <div class="same"></div>
+                <div class="same"></div>
+                <div class="same"></div>
+                <div class="same"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
